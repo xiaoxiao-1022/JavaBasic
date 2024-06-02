@@ -9,6 +9,7 @@ package algorithm;
 public class Recursive {
     public static int recursive(int n){
         if (n == 1) {
+            String
             return 1;
         }else{
             int temp = n * recursive(n-1);

@@ -1,5 +1,8 @@
 package algorithm;
 
+import java.util.Collections;
+import java.util.HashSet;
+
 /**
  * @NAME:Hanluota
  * @Desc:汉诺塔问题是由很多放置在三个塔座上的盘子组成的一个古老的难题，
@@ -10,7 +13,6 @@ package algorithm;
  * @date: 2023/3/23
  */
 public class Hanluota {
-
     /**
      * 所以无论多少盘子，我们都将其看做只有两个盘子，假设n个盘子在a的上面，我们将其看做只有两个盘子，只有（n-1）和n这两个盘子，
      * @param dish
